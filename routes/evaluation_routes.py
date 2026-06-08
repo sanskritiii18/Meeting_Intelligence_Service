@@ -15,9 +15,9 @@ def evaluation():
 
     return jsonify({
         "candidateName": "Sanskriti Verma",
-        "email": "YOUR_EMAIL",
-        "repositoryUrl": "YOUR_GITHUB_URL",
-        "deployedUrl": "YOUR_DEPLOYED_URL",
+        "email": "sanskritiverma.1807@gmail.com",
+        "repositoryUrl": "https://github.com/sanskritiii18/Meeting_Intelligence_Service",
+        "deployedUrl": "https://meeting-intelligence-service-pslx.onrender.com",
         "externalIntegration": "Discord Webhook",
         "features": [
             "Authentication",
