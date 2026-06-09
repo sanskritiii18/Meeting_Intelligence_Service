@@ -1,5 +1,33 @@
 # Meeting Intelligence Service
 
+Live Deployment
+
+The application is deployed and publicly accessible at:
+
+Base URL:
+https://meeting-intelligence-service-pslx.onrender.com
+
+Useful Endpoints
+Health Check: GET /health
+API Documentation (Swagger): /apidocs
+Evaluation Endpoint: /api/evaluation
+
+Testing the APIs
+
+Most endpoints require authentication.
+
+Register a user using POST /auth/register
+Login using POST /auth/login
+Copy the returned JWT access token
+Add the token to the Authorization header:
+Authorization: Bearer <your_token>
+Access protected endpoints such as:
+POST /meetings
+GET /meetings
+POST /meetings/{id}/analyze
+POST /api/action-items
+GET /api/action-items/overdue
+
 ## Features
 
 - JWT Authentication
